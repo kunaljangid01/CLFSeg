@@ -81,10 +81,10 @@ CLFSeg focuses more precisely on clinically relevant regions, improving sensitiv
 
 <p align="center">
   <!-- <img src="https://visdomlab.github.io/CLFSeg/assets/gradcam_comparison.png" width="80%"> -->
-  <img src="assets/cvc-colondb/11.png" width="80%">
-  <img src="assets/cvc-colondb/15.png" width="80%">
-  <img src="assets/cvc-colondb/10.png" width="80%">
-  <img src="assets/cvc-colondb/18.png" width="80%">
+  <img src="assets/GradCam/cvc-colondb/11.png" width="80%">
+  <img src="assets/GradCam/cvc-colondb/15.png" width="80%">
+  <img src="assets/GradCam/cvc-colondb/10.png" width="80%">
+  <img src="assets/GradCam/cvc-colondb/18.png" width="80%">
 </p>
 
 ### 🔹 Segmentation Maps
@@ -92,7 +92,13 @@ CLFSeg focuses more precisely on clinically relevant regions, improving sensitiv
 Comparative segmentation maps demonstrate CLFSeg’s superior mask clarity and uncertainty handling on both **CVC-ColonDB** (left) and **ACDC** (right) datasets.
 
 <p align="center">
-  <img src="https://visdomlab.github.io/CLFSeg/assets/segmentation_results.png" width="80%">
+  <!-- <img src="https://visdomlab.github.io/CLFSeg/assets/segmentation_results.png" width="80%"> -->
+  <img src="assets/Segmentation_Mask/cvc-colondb/5.png" width="80%">
+  <img src="assets/Segmentation_Mask/cvc-colondb/15.png" width="80%">
+  <img src="assets/Segmentation_Mask/acdc/6.png" width="80%">
+  <img src="assets/Segmentation_Mask/acdc/7.png" width="80%">
+  <img src="assets/Segmentation_Mask/acdc/15.png" width="80%">
+  
 </p>
 
 ---
@@ -145,14 +151,16 @@ print(tester.test(X_test, y_test))
 If you use this repository, please cite:
 
 ```bash
-@inproceedings{kaushal2025clfseg,
-  title={CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation},
+@inproceedings{Kaushal_2025_BMVC,
   author={Kaushal, Anshul and Jangid, Kunal and Kurmi, Vinod K.},
+  title={CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation},
   booktitle={Proceedings of the British Machine Vision Conference (BMVC)},
   year={2025}
 }
 ```
 
+
 ---
+
 
 
