@@ -33,11 +33,11 @@ It introduces a **Fuzzy-Convolution (FC)** module that combines convolutional la
 
 ### Main Encoder-Decoder Design
 
-![CLFSeg Architecture](assets/diagram/CLFSeg_Refine.png)
+![CLFSeg Architecture](CLFSeg_code/assets/diagram/CLFSeg_Refine.png)
 
 ### FC Module Internals
 
-![FC Module](assets/diagram/FC_Module.png)
+![FC Module](CLFSeg_code/assets/diagram/FC_Module.png)
 
 | Component                    | Description                                                     |
 | ---------------------------- | --------------------------------------------------------------- |
@@ -89,10 +89,10 @@ CLFSeg focuses more precisely on clinically relevant regions, improving sensitiv
 
 <p align="center">
   <!-- <img src="https://visdomlab.github.io/CLFSeg/assets/gradcam_comparison.png" width="80%"> -->
-  <img src="assets/GradCam/cvc-colondb/11.png" width="80%">
-  <img src="assets/GradCam/cvc-colondb/15.png" width="80%">
-  <img src="assets/GradCam/cvc-colondb/10.png" width="80%">
-  <img src="assets/GradCam/cvc-colondb/18.png" width="80%">
+  <img src="CLFSeg_code/assets/GradCam/cvc-colondb/11.png" width="80%">
+  <img src="CLFSeg_code/assets/GradCam/cvc-colondb/15.png" width="80%">
+  <img src="CLFSeg_code/assets/GradCam/cvc-colondb/10.png" width="80%">
+  <img src="CLFSeg_code/assets/GradCam/cvc-colondb/18.png" width="80%">
 </p>
 
 ### 🔹 Segmentation Maps
@@ -101,11 +101,11 @@ Comparative segmentation maps demonstrate CLFSeg’s superior mask clarity and u
 
 <p align="center">
   <!-- <img src="https://visdomlab.github.io/CLFSeg/assets/segmentation_results.png" width="80%"> -->
-  <img src="assets/Segmentation_Mask/cvc-colondb/5.png" width="80%">
-  <img src="assets/Segmentation_Mask/cvc-colondb/15.png" width="80%">
-  <img src="assets/Segmentation_Mask/acdc/6.png" width="80%">
-  <img src="assets/Segmentation_Mask/acdc/7.png" width="80%">
-  <img src="assets/Segmentation_Mask/acdc/15.png" width="80%">
+  <img src="CLFSeg_code/assets/Segmentation_Mask/cvc-colondb/5.png" width="80%">
+  <img src="CLFSeg_code/assets/Segmentation_Mask/cvc-colondb/15.png" width="80%">
+  <img src="CLFSeg_code/assets/Segmentation_Mask/acdc/6.png" width="80%">
+  <img src="CLFSeg_code/assets/Segmentation_Mask/acdc/7.png" width="80%">
+  <img src="CLFSeg_code/assets/Segmentation_Mask/acdc/15.png" width="80%">
   
 </p>
 
