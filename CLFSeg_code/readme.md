@@ -43,17 +43,17 @@ It introduces a **Fuzzy-Convolution (FC)** module that combines convolutional la
 ---
 
 
-## 💾 Pretrained Weights
+## 💾 Dataset & Pretrained Weights
 
-You can download pretrained CLFSeg model weights for all benchmark datasets from the links below.  
+You can download the datasets and pretrained CLFSeg model weights for all benchmark datasets from the links below.  
 Each model is trained using the **hybrid BCE + Dice loss** and achieves the performance reported in the BMVC 2025 paper.
 
-| Dataset                | Filters | Format | Link         |
-| ---------------------- | ------- | ------ | ------------ |
-| **CVC-ColonDB**        | 17      | `.h5`  | [Download]() |
-| **CVC-ClinicDB**       | 24      | `.h5`  | [Download]() |
-| **ETIS-LaribPolypDB**  | 34      | `.h5`  | [Download]() |
-| **ACDC (Cardiac MRI)** | 17      | `.h5`  | [Download]() |
+| Dataset                | Download Link | Trained Weights Link         |
+| ---------------------- | --------------| ------------------- |
+| **CVC-ColonDB**        | [Dataset Download Link](https://drive.google.com/drive/folders/1jW_n5v4NjX2zkkGTtzDUcnC5y5lc-w3U?usp=sharing) | [Weights Download Link](https://drive.google.com/drive/folders/1U12KPjQ_SPMHl-1PRjvKfPafrvSWEuF0?usp=sharing) |
+| **CVC-ClinicDB**       | [Dataset Download Link](https://drive.google.com/drive/folders/1OVk0Nt5IfGEZNC8uEdpPUm8FOFNajyCd?usp=sharing) | [Weights Download Link](https://drive.google.com/drive/folders/1QMoWQ1y1n4XVw00iY51fbmDjBpMXPeka?usp=sharing) |
+| **ETIS-LaribPolypDB**  | [Dataset Download Link](https://drive.google.com/drive/folders/1c6ahZ92X0WCZwhq34Z-0cTE0PF0KSpso?usp=sharing) | [Weights Download Link](https://drive.google.com/drive/folders/1c2sugZaWFf3lZAi0LUjW96U3Z_bmgepT?usp=sharing) |
+| **ACDC (Cardiac MRI)** | [Dataset Download Link](https://drive.google.com/drive/folders/1-zbadgMo8WE4t-SxGzQA2vX-ddUM8YKi?usp=sharing) | [Weights Download Link](https://drive.google.com/drive/folders/1UQF1G5Sx6IUaZLvIz3K6n6eFTklQR-Ff?usp=sharing) |
 
 ---
 
@@ -148,7 +148,7 @@ print(tester.test(X_test, y_test))
 
 🧾 Citation
 
-If you use this repository, please cite:
+If you use this repository and paper, please cite:
 
 ```bash
 @inproceedings{Kaushal_2025_BMVC,
@@ -161,6 +161,7 @@ If you use this repository, please cite:
 
 
 ---
+
 
 
 
