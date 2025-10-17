@@ -159,7 +159,7 @@ print(tester.test(X_test, y_test))
 If you use this repository and paper, please cite:
 
 ```bash
-@inproceedings{Kaushal_2025_BMVC,
+@inproceedings{CLFSeg_Kaushal_2025_BMVC,
   author={Kaushal, Anshul and Jangid, Kunal and Kurmi, Vinod K.},
   title={CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation},
   booktitle={Proceedings of the British Machine Vision Conference (BMVC)},
