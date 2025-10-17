@@ -1,4 +1,4 @@
-# 🧠 CLFSeg: Fuzzy-Logic-Based Medical Image Segmentation
+# 🧠 CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation
 
 [![Conference](https://img.shields.io/badge/Presented%20at-BMVC%202025-blue)](https://bmvc2025.org/)
 [![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow-orange)](https://www.tensorflow.org/)
@@ -149,3 +149,4 @@ If you use this repository, please cite:
 ```
 
 ---
+
