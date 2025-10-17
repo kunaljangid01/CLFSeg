@@ -31,6 +31,14 @@ It introduces a **Fuzzy-Convolution (FC)** module that combines convolutional la
 
 ## 🧪 Architecture Overview
 
+### Main Encoder-Decoder Design
+
+![CLFSeg Architecture](assets/diagram/CLFSeg_Refine.png)
+
+### FC Module Internals
+
+![FC Module](assets/diagram/FC_Module.png)
+
 | Component                    | Description                                                     |
 | ---------------------------- | --------------------------------------------------------------- |
 | **Encoder–Decoder Backbone** | Captures multi-scale spatial features with skip connections.    |
@@ -168,6 +176,7 @@ For questions, feedback, or collaborations, please reach out to:
 - **Anshul Kaushal** - [Website](https://enthusiast101.github.io/)
 
 ---
+
 
 
 
