@@ -1,6 +1,6 @@
 # 🧠 CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation
 
-[![Conference](https://img.shields.io/badge/Presented%20at-BMVC%202025-blue)](https://bmvc2025.org/)
+[![Conference](https://img.shields.io/badge/Presented%20at-BMVC%202025-blue)](https://bmvc2025.bmva.org/)
 [![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow-orange)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Paper](https://img.shields.io/badge/Paper-Available-blueviolet)](./Paper__CLFSeg___Medical_Image_Segmentation___BMVC_2025.pdf)
@@ -42,6 +42,7 @@ It introduces a **Fuzzy-Convolution (FC)** module that combines convolutional la
 
 ---
 
+
 ## 💾 Pretrained Weights
 
 You can download pretrained CLFSeg model weights for all benchmark datasets from the links below.  
@@ -79,7 +80,11 @@ The figure below shows CLFSeg vs. DuckNet Grad-CAM++ maps on the **CVC-ColonDB**
 CLFSeg focuses more precisely on clinically relevant regions, improving sensitivity to boundaries and small structures.
 
 <p align="center">
-  <img src="https://visdomlab.github.io/CLFSeg/assets/gradcam_comparison.png" width="80%">
+  <!-- <img src="https://visdomlab.github.io/CLFSeg/assets/gradcam_comparison.png" width="80%"> -->
+  <img src="assets/cvc-colondb/11.png" width="80%">
+  <img src="assets/cvc-colondb/15.png" width="80%">
+  <img src="assets/cvc-colondb/10.png" width="80%">
+  <img src="assets/cvc-colondb/18.png" width="80%">
 </p>
 
 ### 🔹 Segmentation Maps
@@ -149,4 +154,5 @@ If you use this repository, please cite:
 ```
 
 ---
+
 
