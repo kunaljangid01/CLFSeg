@@ -160,7 +160,15 @@ If you use this repository and paper, please cite:
 ```
 
 
+
+## 📬 Contact
+For questions, feedback, or collaborations, please reach out to:
+
+- **Kunal Jangid** – [Website](https://kunaljangid01.github.io/) – 📧 jangidkunal1999@gmail.com
+- **Anshul Kaushal** - [Website](https://enthusiast101.github.io/)
+
 ---
+
 
 
 
