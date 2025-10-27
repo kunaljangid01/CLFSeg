@@ -3,7 +3,7 @@
 [![Conference](https://img.shields.io/badge/Presented%20at-BMVC%202025-blue)](https://bmvc2025.bmva.org/)
 [![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow-orange)](https://www.tensorflow.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-Available-blueviolet)](./Paper__CLFSeg___Medical_Image_Segmentation___BMVC_2025.pdf)
+[![Paper](https://img.shields.io/badge/Paper-Available-blueviolet)](./CLFSeg_code/Paper__CLFSeg___Medical_Image_Segmentation___BMVC_2025.pdf)
 
 ---
 
