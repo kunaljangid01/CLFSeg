@@ -159,11 +159,13 @@ print(tester.test(X_test, y_test))
 If you use this repository and paper, please cite:
 
 ```bash
-@inproceedings{CLFSeg_Kaushal_2025_BMVC,
-  author={Kaushal, Anshul and Jangid, Kunal and Kurmi, Vinod K},
-  title={CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation},
-  booktitle={Proceedings of the British Machine Vision Conference (BMVC)},
-  year={2025}
+@inproceedings{Kaushal_2025_BMVC,
+author    = {Anshul Kaushal and Kunal Jangid and Vinod K. Kurmi},
+title     = {CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation},
+booktitle = {36th British Machine Vision Conference 2025, {BMVC} 2025, Sheffield, UK, November 24-27, 2025},
+publisher = {BMVA},
+year      = {2025},
+url       = {https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_1076/paper.pdf}
 }
 ```
 
